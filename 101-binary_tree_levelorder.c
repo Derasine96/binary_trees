@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 levelorder_queue_t *create_node(binary_tree_t *node);
 void pint_push(binary_tree_t *node, levelorder_queue_t *head,
 		levelorder_queue_t **tail, void (*func)(int));
