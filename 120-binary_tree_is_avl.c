@@ -34,7 +34,7 @@ int is_avl_helper(const binary_tree_t *tree, int low, int high)
 		if (tree->n < low || tree->n > high)
 			return (0);
 		l_height = height(tree->left);
-		r_heoght = height(tree->right);
+		r_height = height(tree->right);
 		diff = l_height > r_height ? l_height - r_height : r_height - l_height;
 		if (diff > 1)
 			return (0);
