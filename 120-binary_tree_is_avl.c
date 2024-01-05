@@ -20,8 +20,8 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 /**
  * is_avl_helper - Checks if a binary tree is a valid AVL tree.
  * @tree: A pointer to the root node of the tree to check.
- * @lo: The value of the smallest node visited thus far.
- * @hi: The value of the largest node visited this far.
+ * @low: The value of the smallest node visited thus far.
+ * @high: The value of the largest node visited this far.
  *
  * Return: If the tree is a valid AVL tree, 1, otherwise, 0.
  */
